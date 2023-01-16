@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------- Barre de navigation ----------- */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 61, 96);
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 20px;
+    display: block;
+}
+li a:hover {
+    border-bottom: 2px solid blue;
+}
+
+/* ----------- Général ----------- */
+h1 {
+   padding-top: 30px!important;
+   margin-bottom: 50px!important;
+   text-align: center;
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    position: relative!important;
+    min-height: 150px;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px!important;
+}
+label {
+    font-size: 1.2rem!important;
+    margin: 5px;
+    margin-bottom: 30px!important;
+}
+input[type='number']{
+    width: 160px;
+    height: 26px;
+    border-radius: 8px!important;
+    outline: none!important;
+}
+input[type='submit']{
+    position: absolute!important;
+    padding: 3px 14px;
+    border-radius: 8px!important;
+    border: 1px solid black!important;
+    transition: .2s ease-in;
+    margin-top: 2rem!important;
+}
+input[type='submit']:hover{
+    background-color: rgba(145, 145, 145, 0.341);
+}
+
+/* ----------- Page Multiples ----------- */
+/* ----------- Page Pyramide ----------- */
+/* ----------- Perimetres & aires ----------- */
+/* ----------- Nombres aléatoires ----------- */
+/* ----------- Moyennes ----------- */
+/* ----------- Personnages ----------- */
+
+/* ----------- Tableaux ----------- */
+.bloc-text {
+    width: 100%!important;
+    padding-left: 2rem;
+}
+.bloc-text h3{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.bloc-result {
+    margin-left: 2rem;
+}
+.result-title_text {
+    display: flex!important;
+    align-items:flex-start!important;
+}
+.result-text {
+    margin-left: 2rem!important;
+}
+
+/* ----------- Infos personnage ----------- */
+.bloc-infos_perso {
+    width: 100%;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;   
+}
+.option-perso {
+    width: 5rem!important;
+    height: 1.4rem!important;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+.gauche {
+    float: left; 
+}
+.gauche img {
+    width: 10rem;
+}
+.gauche p{
+    line-height: 0.8rem!important;
+}
+.gauche:nth-child(2){
+    margin-top: 4rem!important;
+}
+.clearB {
+    clear: both;
+}
+
+/* -----------  ----------- */
+
+
+
+
